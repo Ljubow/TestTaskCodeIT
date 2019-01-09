@@ -1,0 +1,14 @@
+.card {
+    margin: auto;
+    margin-top: 15vh;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    padding-top: 3px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
