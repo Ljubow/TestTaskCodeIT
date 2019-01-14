@@ -1,6 +1,8 @@
 .card {
     margin: auto;
     margin-top: 15vh;
+    width: 25rem;
+
 }
 
 input,
@@ -12,3 +14,11 @@ input::-webkit-input-placeholder {
 .form-group {
     margin-bottom: 15px;
 }
+
+.error input,
+.error textarea {
+    border: 1px solid red;
+    size: 25rem;
+    margin: auto;
+}
+

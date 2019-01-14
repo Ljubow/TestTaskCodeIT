@@ -1,0 +1,53 @@
+.book-body {
+    margin-top: 20px;
+}
+
+.primary-info {
+    height: 110px;
+}
+
+.col-md-6 {
+    display: block;
+    margin-top: 20px;
+}
+
+.card{
+    margin-bottom: 50px;
+    margin-left: 100px;
+    width: 25rem;
+    height: 20rem;
+    overflow: auto;
+
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-item {
+    position: relative;
+    display: flex;
+}
+
+.rounded {
+    height: 10rem;
+    width: 10rem;
+}
+
+img{
+    height: 90%;
+}
+
+.container-fluid {
+    text-align: center;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -4,7 +4,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>CodeIT Task</title>
+    <title>SignUp</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -15,48 +15,48 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="card text-center">
+<div class="card text-center">
                 <div class="card-header">Sign Up</div>
                 <div class="card-body">
-                    <form>
+                    <form id="form" action="companies/index.html">
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"> <i class="fa fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="First Name" required>
+                            <input type="text" id="fName" name="name" class="form-control field" placeholder="First Name" required>
                         </div>
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"> <i class="fa fa-user"></i></span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Second Name" required>
+                            <input type="text" id="sName" name="secondname" class="form-control field" placeholder="Second Name" required>
                         </div>
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"> <i class="fa fa-envelope"></i></span>
                             </div>
-                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                            <input type="email" id="usrEmail" name="email" class="form-control field" aria-describedby="emailHelp"
                                 placeholder="Email" required>
                         </div>
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"> <i class="fa fa-lock"></i></span>
                             </div>
-                            <input type="password" class="form-control" id="password" placeholder="Password"
+                            <input type="password" id="usrPass" name="pass" class="form-control field" placeholder="Password"
                                  required>
                         </div>
                         <div class="form-group input-group">
-                            <select class="form-control">
-                                <option selected disabled hidden>Gender</option>
-                                <option value="1">Male</option>
-                                <option value="2">Female</option>
+                            <select id="gender" name="gender" class="form-control">
+                                <option selected disabled hidden value="1">Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
                             </select>
                         </div>
                         <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <input type="checkbox" name="check" class="form-check-input" id="exampleCheck1" required>
                             <label class="form-check-label" for="exampleCheck1">Conditions of Agreement</label>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">Send</button>
+                        <button type="submit" onclick="validate(this.form)" class="btn btn-primary btn-block">Send</button>
                     </form>
                 </div>
             </div>
