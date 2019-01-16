@@ -1,11 +1,3 @@
-.book-body {
-    margin-top: 20px;
-}
-
-.primary-info {
-    height: 110px;
-}
-
 .col-md-6 {
     display: block;
     margin-top: 20px;
@@ -15,39 +7,40 @@
     margin-bottom: 50px;
     margin-left: 100px;
     width: 25rem;
-    height: 20rem;
+    height: 18rem;
+}
+
+ul{
     overflow: auto;
-
-}
-
-.container-fluid {
-    text-align: center;
-}
-
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.carousel-item {
-    position: relative;
-    display: flex;
-}
-
-.rounded {
-    height: 10rem;
-    width: 10rem;
 }
 
 img{
-    height: 90%;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
 }
 
-.container-fluid {
+.circle {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border: solid black 1px;
+    border-radius: 70%;
+    font-size: 50px;
+    color: #000;
+    line-height: 200px;
     text-align: center;
+    background: #fff;
 }
-.center-block {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.fade:not(.show) {
+    opacity: 1;
+}
+
+.carousel {
+    box-sizing: border-box;
+    width: 25rem;
+    overflow: auto;
 }
